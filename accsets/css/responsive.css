@@ -1,0 +1,116 @@
+/* pc */
+@media (min-width: 1024px){
+    .menu-icon {
+        display: none;
+    }
+    
+}
+
+/* table */
+@media (min-width: 739px) and (max-width: 1023px){
+    .menu-icon {
+        display: none;
+    }
+    .col {
+        padding: 0 20px;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0; 
+    }
+    
+}
+
+/* mobile */
+@media (max-width: 739px){
+    #nav > li {
+        display: block; 
+    
+    }
+    #nav .subnav {
+        position: inherit;
+        background-color: #333;
+       
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 8px 38px;
+        
+        
+    }
+    #nav .subnav a:hover {
+        color: #000;
+        
+    }
+
+
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-mune-btn {
+        float: right; /* đưa đối tượng về bên phải */
+        padding: 0 24px;
+        line-height: 46.5px;
+    
+        
+    }
+  
+    
+    
+    #header .menu-icon {
+        font-size: 15px;
+        color: #fff;
+    
+        
+    }
+    #header {
+        overflow: hidden; 
+    }
+    #slider .text-content {
+        display: none;
+    }
+    .col {
+        padding: 10px;
+        width: 100%; /* làm cho chiều rộng tự động điều chỉnh cho cân đối hình ảnh */
+       
+        
+    }
+    #content .content-section {
+       
+        padding: 48px 8px ;
+       
+    
+    }
+    #content .member-img {
+
+
+        width: 60%;  /* ảnh tự động điều chỉnh chiều cao khi đặt chiều rộng */
+        
+    }
+    #header .mobile-close-btn{
+        float: right; /* đưa đối tượng về bên phải */
+        padding: 0 24px;
+        line-height: 46.5px;
+        
+    }
+    #mobile-close {
+        display: none;
+    }
+    
+    .form-submit-btn {
+        width: 100%;
+     
+    }
+    .place-list .place-body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .place-list .place-buy-btn {
+        font-size: 24px;
+        width: 100% ;
+        padding: 12px 0;
+       
+    }
+   
+    
+}
